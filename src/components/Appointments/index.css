@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.bg-container {
+  background: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #171f46;
+}
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  /* height: 600px; */
+  width: 80vw;
+  border-radius: 10px;
+  background-size: cover;
+}
+.appointment-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.input-element {
+  margin-bottom: 10px;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px 2px;
+}
+#date {
+  font-size: 17px;
+}
+label {
+  color: gray;
+}
+.submit-btn {
+  background-color: #8b5cf6;
+  padding: 5px 10px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.bottom-section {
+  margin-top: 30px;
+}
+
+.appointments-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.starred-btn {
+  height: 30px;
+  width: 100px;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  outline: none;
+  border-radius: 15px;
+  background-color: transparent;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.appointments-para {
+  font-size: 25px;
+  font-weight: 500;
+}
+.image {
+  height: 250px;
+  width: 450px;
+}
